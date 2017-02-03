@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/beanaliases" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cdl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/constructorinjection" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dependencypull" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/injection" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/methodinjection" charset="UTF-8" />
+  </component>
+</project>

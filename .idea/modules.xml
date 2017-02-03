@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/beanaliases/beanaliases.iml" filepath="$PROJECT_DIR$/beanaliases/beanaliases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cdl/cdl.iml" filepath="$PROJECT_DIR$/cdl/cdl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/constructorinjection/constructorinjection.iml" filepath="$PROJECT_DIR$/constructorinjection/constructorinjection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencypull/dependencypull.iml" filepath="$PROJECT_DIR$/dependencypull/dependencypull.iml" />
+      <module fileurl="file://$PROJECT_DIR$/injection/injection.iml" filepath="$PROJECT_DIR$/injection/injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methodinjection/methodinjection.iml" filepath="$PROJECT_DIR$/methodinjection/methodinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/prospring.iml" filepath="$PROJECT_DIR$/prospring.iml" />
     </modules>
   </component>

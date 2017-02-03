@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="beanaliases:war">
+    <output-path>$PROJECT_DIR$/beanaliases/target</output-path>
+    <root id="archive" name="bean-aliases-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="beanaliases:war exploded" />
+    </root>
+  </artifact>
+</component>

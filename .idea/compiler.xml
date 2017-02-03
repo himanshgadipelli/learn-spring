@@ -6,11 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="prospring" />
+        <module name="beanaliases" />
+        <module name="cdl" />
+        <module name="constructorinjection" />
+        <module name="injection" />
+        <module name="methodinjection" />
+      </profile>
+      <profile name="Annotation profile for prospring" enabled="true">
+        <sourceOutputDir name="../cdl/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../cdl/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dependencypull" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="beanaliases" target="1.5" />
+      <module name="cdl" target="1.6" />
+      <module name="constructorinjection" target="1.6" />
+      <module name="dependencypull" target="1.6" />
+      <module name="injection" target="1.6" />
+      <module name="methodinjection" target="1.5" />
       <module name="prospring" target="1.5" />
+      <module name="qwerty" target="1.5" />
+      <module name="three" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
