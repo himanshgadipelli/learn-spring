@@ -3,11 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/beanaliases/beanaliases.iml" filepath="$PROJECT_DIR$/beanaliases/beanaliases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beanautowiring/beanautowiring.iml" filepath="$PROJECT_DIR$/beanautowiring/beanautowiring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beaninheritance/beaninheritance.iml" filepath="$PROJECT_DIR$/beaninheritance/beaninheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beaninstantiationmode/beaninstantiationmode.iml" filepath="$PROJECT_DIR$/beaninstantiationmode/beaninstantiationmode.iml" />
       <module fileurl="file://$PROJECT_DIR$/cdl/cdl.iml" filepath="$PROJECT_DIR$/cdl/cdl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/constructorinjection/constructorinjection.iml" filepath="$PROJECT_DIR$/constructorinjection/constructorinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/dependencypull/dependencypull.iml" filepath="$PROJECT_DIR$/dependencypull/dependencypull.iml" />
       <module fileurl="file://$PROJECT_DIR$/injection/injection.iml" filepath="$PROJECT_DIR$/injection/injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/methodinjection/methodinjection.iml" filepath="$PROJECT_DIR$/methodinjection/methodinjection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methodreplacement/methodreplacement.iml" filepath="$PROJECT_DIR$/methodreplacement/methodreplacement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nesting/nesting.iml" filepath="$PROJECT_DIR$/nesting/nesting.iml" />
       <module fileurl="file://$PROJECT_DIR$/prospring.iml" filepath="$PROJECT_DIR$/prospring.iml" />
     </modules>
   </component>

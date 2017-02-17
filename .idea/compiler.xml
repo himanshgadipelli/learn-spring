@@ -7,26 +7,38 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="beanaliases" />
-        <module name="cdl" />
+        <module name="beanautowiring" />
+        <module name="beaninheritance" />
+        <module name="beaninstantiationmode" />
+        <module name="collections" />
         <module name="constructorinjection" />
+        <module name="dependencypull" />
         <module name="injection" />
         <module name="methodinjection" />
+        <module name="methodreplacement" />
+        <module name="nesting" />
       </profile>
       <profile name="Annotation profile for prospring" enabled="true">
-        <sourceOutputDir name="../cdl/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../cdl/target/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="../dependencypull/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../dependencypull/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dependencypull" />
+        <module name="cdl" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="beanaliases" target="1.5" />
+      <module name="beanaliases" target="1.8" />
+      <module name="beanautowiring" target="1.8" />
+      <module name="beaninheritance" target="1.8" />
+      <module name="beaninstantiationmode" target="1.8" />
       <module name="cdl" target="1.6" />
+      <module name="collections" target="1.8" />
       <module name="constructorinjection" target="1.6" />
       <module name="dependencypull" target="1.6" />
       <module name="injection" target="1.6" />
-      <module name="methodinjection" target="1.5" />
-      <module name="prospring" target="1.5" />
+      <module name="methodinjection" target="1.6" />
+      <module name="methodreplacement" target="1.8" />
+      <module name="nesting" target="1.5" />
+      <module name="prospring" target="1.8" />
       <module name="qwerty" target="1.5" />
       <module name="three" target="1.5" />
     </bytecodeTargetLevel>
