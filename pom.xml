@@ -9,22 +9,19 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>beanaliases</module>
-        <module>dependencypull</module>
-        <module>cdl</module>
-        <module>constructorinjection</module>
-        <module>injection</module>
-        <module>methodinjection</module>
-        <module>methodreplacement</module>
-        <module>nesting</module>
-        <module>beanautowiring</module>
-        <module>beaninheritance</module>
-        <module>beaninstantiationmode</module>
-        <module>collections</module>
+        <module>chapter3</module>
+        <module>accessingfactorybeans</module>
+        <module>applicationcontextaware</module>
+        <module>beaninit</module>
+        <module>beannameaware</module>
+        <module>custompropertyeditor</module>
+        <module>disposablebean</module>
+        <module>environment</module>
+        <module>events</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>4.0.2.RELEASE</spring.version>
+        <spring.version>4.3.6.RELEASE</spring.version>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->

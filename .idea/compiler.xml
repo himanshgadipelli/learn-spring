@@ -6,17 +6,42 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="beanaliases" />
+        <module name="accessingfactorybeans" />
+        <module name="applicationcontextaware" />
         <module name="beanautowiring" />
         <module name="beaninheritance" />
+        <module name="beaninit" />
         <module name="beaninstantiationmode" />
-        <module name="collections" />
+        <module name="beannameaware" />
+        <module name="chapter3" />
+        <module name="custompropertyeditor" />
+        <module name="disposablebean" />
+        <module name="environment" />
+        <module name="events" />
+      </profile>
+      <profile name="Annotation profile for simpletypes" enabled="true">
+        <sourceOutputDir name="../../simpletypes/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../simpletypes/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="simpletypes" />
+      </profile>
+      <profile name="Annotation profile for constructorinjection" enabled="true">
+        <sourceOutputDir name="../../constructorinjection/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../constructorinjection/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="constructorinjection" />
-        <module name="dependencypull" />
-        <module name="injection" />
-        <module name="methodinjection" />
+      </profile>
+      <profile name="Annotation profile for methodreplacement" enabled="true">
+        <sourceOutputDir name="../../methodreplacement/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../methodreplacement/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="methodreplacement" />
-        <module name="nesting" />
+      </profile>
+      <profile name="Annotation profile for setterinjection" enabled="true">
+        <sourceOutputDir name="../../setterinjection/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../setterinjection/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="setterinjection" />
       </profile>
       <profile name="Annotation profile for prospring" enabled="true">
         <sourceOutputDir name="../dependencypull/target/generated-sources/annotations" />
@@ -24,22 +49,63 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cdl" />
       </profile>
+      <profile name="Annotation profile for nesting" enabled="true">
+        <sourceOutputDir name="../../nesting/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../nesting/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nesting" />
+      </profile>
+      <profile name="Annotation profile for dependencypull" enabled="true">
+        <sourceOutputDir name="../../dependencypull/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../dependencypull/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dependencypull" />
+      </profile>
+      <profile name="Annotation profile for injection" enabled="true">
+        <sourceOutputDir name="../../injection/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../injection/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="injection" />
+      </profile>
+      <profile name="Annotation profile for collections" enabled="true">
+        <sourceOutputDir name="../../collections/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../collections/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="collections" />
+      </profile>
+      <profile name="Annotation profile for methodinjection" enabled="true">
+        <sourceOutputDir name="../../methodinjection/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../methodinjection/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="methodinjection" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="accessingfactorybeans" target="1.8" />
+      <module name="applicationcontextaware" target="1.8" />
       <module name="beanaliases" target="1.8" />
       <module name="beanautowiring" target="1.8" />
       <module name="beaninheritance" target="1.8" />
+      <module name="beaninit" target="1.8" />
       <module name="beaninstantiationmode" target="1.8" />
+      <module name="beannameaware" target="1.8" />
       <module name="cdl" target="1.6" />
+      <module name="chapter3" target="1.8" />
       <module name="collections" target="1.8" />
       <module name="constructorinjection" target="1.6" />
+      <module name="custompropertyeditor" target="1.8" />
       <module name="dependencypull" target="1.6" />
+      <module name="disposablebean" target="1.8" />
+      <module name="environment" target="1.8" />
+      <module name="events" target="1.8" />
       <module name="injection" target="1.6" />
       <module name="methodinjection" target="1.6" />
       <module name="methodreplacement" target="1.8" />
       <module name="nesting" target="1.5" />
       <module name="prospring" target="1.8" />
       <module name="qwerty" target="1.5" />
+      <module name="setterinjection" target="1.8" />
+      <module name="simpletypes" target="1.8" />
       <module name="three" target="1.5" />
     </bytecodeTargetLevel>
   </component>
