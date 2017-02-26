@@ -18,6 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/disposablebean/disposablebean.iml" filepath="$PROJECT_DIR$/disposablebean/disposablebean.iml" />
       <module fileurl="file://$PROJECT_DIR$/environment/environment.iml" filepath="$PROJECT_DIR$/environment/environment.iml" />
       <module fileurl="file://$PROJECT_DIR$/events/events.iml" filepath="$PROJECT_DIR$/events/events.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factorybean/factorybean.iml" filepath="$PROJECT_DIR$/factorybean/factorybean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factorybeanandfactorymethodattributes/factorybeanandfactorymethodattributes.iml" filepath="$PROJECT_DIR$/factorybeanandfactorymethodattributes/factorybeanandfactorymethodattributes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/groovyconfig/groovyconfig.iml" filepath="$PROJECT_DIR$/groovyconfig/groovyconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/injection/injection.iml" filepath="$PROJECT_DIR$/chapter3/injection/injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/methodinjection/methodinjection.iml" filepath="$PROJECT_DIR$/chapter3/methodinjection/methodinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/methodreplacement/methodreplacement.iml" filepath="$PROJECT_DIR$/chapter3/methodreplacement/methodreplacement.iml" />

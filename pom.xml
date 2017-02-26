@@ -18,6 +18,10 @@
         <module>disposablebean</module>
         <module>environment</module>
         <module>events</module>
+        <module>factorybean</module>
+        <module>factorybeanandfactorymethodattributes</module>
+        <module>groovyconfig</module>
+
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -73,6 +77,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>

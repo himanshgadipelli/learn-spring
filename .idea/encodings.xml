@@ -25,5 +25,8 @@
     <file url="file://$PROJECT_DIR$/disposablebean" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/environment" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/events" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorybean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorybeanandfactorymethodattributes" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/groovyconfig" charset="UTF-8" />
   </component>
 </project>

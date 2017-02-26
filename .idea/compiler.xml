@@ -18,6 +18,9 @@
         <module name="disposablebean" />
         <module name="environment" />
         <module name="events" />
+        <module name="factorybean" />
+        <module name="factorybeanandfactorymethodattributes" />
+        <module name="groovyconfig" />
       </profile>
       <profile name="Annotation profile for simpletypes" enabled="true">
         <sourceOutputDir name="../../simpletypes/target/generated-sources/annotations" />
@@ -98,6 +101,10 @@
       <module name="disposablebean" target="1.8" />
       <module name="environment" target="1.8" />
       <module name="events" target="1.8" />
+      <module name="factorybean" target="1.8" />
+      <module name="factorybeanandfactorymethodattributes" target="1.8" />
+      <module name="factorybeanandfactorymethodattributes1" target="1.5" />
+      <module name="groovyconfig" target="1.8" />
       <module name="injection" target="1.6" />
       <module name="methodinjection" target="1.6" />
       <module name="methodreplacement" target="1.8" />
