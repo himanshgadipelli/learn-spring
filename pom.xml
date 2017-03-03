@@ -21,6 +21,10 @@
         <module>factorybean</module>
         <module>factorybeanandfactorymethodattributes</module>
         <module>groovyconfig</module>
+        <module>initializingbean</module>
+        <module>initializingbeandestroy</module>
+        <module>javaconfig</module>
+        <module>javaconfigmessageprovider</module>
 
     </modules>
     <properties>
@@ -64,6 +68,13 @@
             <artifactId>spring-test</artifactId>
             <version>4.3.6.RELEASE</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>4.3.6.RELEASE</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>

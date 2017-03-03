@@ -21,6 +21,10 @@
         <module name="factorybean" />
         <module name="factorybeanandfactorymethodattributes" />
         <module name="groovyconfig" />
+        <module name="initializingbean" />
+        <module name="initializingbeandestroy" />
+        <module name="javaconfig" />
+        <module name="javaconfigmessageprovider" />
       </profile>
       <profile name="Annotation profile for simpletypes" enabled="true">
         <sourceOutputDir name="../../simpletypes/target/generated-sources/annotations" />
@@ -105,7 +109,11 @@
       <module name="factorybeanandfactorymethodattributes" target="1.8" />
       <module name="factorybeanandfactorymethodattributes1" target="1.5" />
       <module name="groovyconfig" target="1.8" />
+      <module name="initializingbean" target="1.8" />
+      <module name="initializingbeandestroy" target="1.8" />
       <module name="injection" target="1.6" />
+      <module name="javaconfig" target="1.8" />
+      <module name="javaconfigmessageprovider" target="1.8" />
       <module name="methodinjection" target="1.6" />
       <module name="methodreplacement" target="1.8" />
       <module name="nesting" target="1.5" />

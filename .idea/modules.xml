@@ -21,7 +21,11 @@
       <module fileurl="file://$PROJECT_DIR$/factorybean/factorybean.iml" filepath="$PROJECT_DIR$/factorybean/factorybean.iml" />
       <module fileurl="file://$PROJECT_DIR$/factorybeanandfactorymethodattributes/factorybeanandfactorymethodattributes.iml" filepath="$PROJECT_DIR$/factorybeanandfactorymethodattributes/factorybeanandfactorymethodattributes.iml" />
       <module fileurl="file://$PROJECT_DIR$/groovyconfig/groovyconfig.iml" filepath="$PROJECT_DIR$/groovyconfig/groovyconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initializingbean/initializingbean.iml" filepath="$PROJECT_DIR$/initializingbean/initializingbean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initializingbeandestroy/initializingbeandestroy.iml" filepath="$PROJECT_DIR$/initializingbeandestroy/initializingbeandestroy.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/injection/injection.iml" filepath="$PROJECT_DIR$/chapter3/injection/injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaconfig/javaconfig.iml" filepath="$PROJECT_DIR$/javaconfig/javaconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaconfigmessageprovider/javaconfigmessageprovider.iml" filepath="$PROJECT_DIR$/javaconfigmessageprovider/javaconfigmessageprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/methodinjection/methodinjection.iml" filepath="$PROJECT_DIR$/chapter3/methodinjection/methodinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/methodreplacement/methodreplacement.iml" filepath="$PROJECT_DIR$/chapter3/methodreplacement/methodreplacement.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/nesting/nesting.iml" filepath="$PROJECT_DIR$/chapter3/nesting/nesting.iml" />
