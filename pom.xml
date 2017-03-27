@@ -25,6 +25,10 @@
         <module>initializingbeandestroy</module>
         <module>javaconfig</module>
         <module>javaconfigmessageprovider</module>
+        <module>messagesource</module>
+        <module>postconstruct</module>
+        <module>postconstruct</module>
+        <module>postconstructpredestroy</module>
 
     </modules>
     <properties>

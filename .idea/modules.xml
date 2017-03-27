@@ -25,10 +25,12 @@
       <module fileurl="file://$PROJECT_DIR$/initializingbeandestroy/initializingbeandestroy.iml" filepath="$PROJECT_DIR$/initializingbeandestroy/initializingbeandestroy.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/injection/injection.iml" filepath="$PROJECT_DIR$/chapter3/injection/injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaconfig/javaconfig.iml" filepath="$PROJECT_DIR$/javaconfig/javaconfig.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javaconfigmessageprovider/javaconfigmessageprovider.iml" filepath="$PROJECT_DIR$/javaconfigmessageprovider/javaconfigmessageprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messagesource/messagesource.iml" filepath="$PROJECT_DIR$/messagesource/messagesource.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/methodinjection/methodinjection.iml" filepath="$PROJECT_DIR$/chapter3/methodinjection/methodinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/methodreplacement/methodreplacement.iml" filepath="$PROJECT_DIR$/chapter3/methodreplacement/methodreplacement.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/nesting/nesting.iml" filepath="$PROJECT_DIR$/chapter3/nesting/nesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/postconstruct/postconstruct.iml" filepath="$PROJECT_DIR$/postconstruct/postconstruct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/postconstructpredestroy/postconstructpredestroy.iml" filepath="$PROJECT_DIR$/postconstructpredestroy/postconstructpredestroy.iml" />
       <module fileurl="file://$PROJECT_DIR$/prospring.iml" filepath="$PROJECT_DIR$/prospring.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/setterinjection/setterinjection.iml" filepath="$PROJECT_DIR$/chapter3/setterinjection/setterinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/simpletypes/simpletypes.iml" filepath="$PROJECT_DIR$/chapter3/simpletypes/simpletypes.iml" />

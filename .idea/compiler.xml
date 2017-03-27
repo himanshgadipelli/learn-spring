@@ -24,7 +24,10 @@
         <module name="initializingbean" />
         <module name="initializingbeandestroy" />
         <module name="javaconfig" />
-        <module name="javaconfigmessageprovider" />
+        <module name="messagesource" />
+        <module name="postconstruct" />
+        <module name="postconstructpredestroy" />
+        <module name="qwerty" />
       </profile>
       <profile name="Annotation profile for simpletypes" enabled="true">
         <sourceOutputDir name="../../simpletypes/target/generated-sources/annotations" />
@@ -114,11 +117,14 @@
       <module name="injection" target="1.6" />
       <module name="javaconfig" target="1.8" />
       <module name="javaconfigmessageprovider" target="1.8" />
+      <module name="messagesource" target="1.8" />
       <module name="methodinjection" target="1.6" />
       <module name="methodreplacement" target="1.8" />
       <module name="nesting" target="1.5" />
+      <module name="postconstruct" target="1.8" />
+      <module name="postconstructpredestroy" target="1.8" />
       <module name="prospring" target="1.8" />
-      <module name="qwerty" target="1.5" />
+      <module name="qwerty" target="1.8" />
       <module name="setterinjection" target="1.8" />
       <module name="simpletypes" target="1.8" />
       <module name="three" target="1.5" />
