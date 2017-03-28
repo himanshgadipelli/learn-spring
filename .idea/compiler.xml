@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="accessing-factory-beans" />
+        <module name="afterreturningadvicekeygen" />
+        <module name="annotationpointcut" />
+        <module name="aopnamespace" />
         <module name="applicationcontextaware" />
         <module name="bean-aliases" />
         <module name="beanautowiring" />
@@ -15,7 +18,6 @@
         <module name="beaninstantiationmode" />
         <module name="beannameaware" />
         <module name="chapter4" />
-        <module name="chapter5" />
         <module name="collections" />
         <module name="constructorinjection" />
         <module name="custompropertyeditor" />
@@ -23,6 +25,7 @@
         <module name="disposablebean" />
         <module name="environment" />
         <module name="events" />
+        <module name="experiment" />
         <module name="factorybean" />
         <module name="factorybeanandfactorymethodattributes" />
         <module name="groovyconfig" />
@@ -56,6 +59,9 @@
     <bytecodeTargetLevel>
       <module name="accessing-factory-beans" target="1.8" />
       <module name="accessingfactorybeans" target="1.8" />
+      <module name="afterreturningadvicekeygen" target="1.8" />
+      <module name="annotationpointcut" target="1.8" />
+      <module name="aopnamespace" target="1.8" />
       <module name="applicationcontextaware" target="1.8" />
       <module name="bean-aliases" target="1.8" />
       <module name="beanaliases" target="1.8" />
@@ -75,6 +81,7 @@
       <module name="disposablebean" target="1.8" />
       <module name="environment" target="1.8" />
       <module name="events" target="1.8" />
+      <module name="experiment" target="1.8" />
       <module name="factorybean" target="1.8" />
       <module name="factorybeanandfactorymethodattributes" target="1.8" />
       <module name="factorybeanandfactorymethodattributes1" target="1.5" />
