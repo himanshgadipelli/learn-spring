@@ -10,31 +10,16 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>chapter3</module>
-        <module>accessingfactorybeans</module>
-        <module>applicationcontextaware</module>
-        <module>beaninit</module>
-        <module>beannameaware</module>
-        <module>custompropertyeditor</module>
-        <module>disposablebean</module>
-        <module>environment</module>
-        <module>events</module>
-        <module>factorybean</module>
-        <module>factorybeanandfactorymethodattributes</module>
-        <module>groovyconfig</module>
-        <module>initializingbean</module>
-        <module>initializingbeandestroy</module>
-        <module>javaconfig</module>
-        <module>javaconfigmessageprovider</module>
-        <module>messagesource</module>
-        <module>postconstruct</module>
-        <module>postconstruct</module>
-        <module>postconstructpredestroy</module>
+        <module>chapter4</module>
+        <module>chapter5</module>
 
     </modules>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.3.6.RELEASE</spring.version>
     </properties>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
         <dependency>
@@ -80,6 +65,7 @@
         </dependency>
 
     </dependencies>
+
     <build>
         <plugins>
             <plugin>

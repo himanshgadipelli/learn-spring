@@ -6,15 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="accessingfactorybeans" />
+        <module name="accessing-factory-beans" />
         <module name="applicationcontextaware" />
+        <module name="bean-aliases" />
         <module name="beanautowiring" />
         <module name="beaninheritance" />
         <module name="beaninit" />
         <module name="beaninstantiationmode" />
         <module name="beannameaware" />
-        <module name="chapter3" />
+        <module name="chapter4" />
+        <module name="chapter5" />
+        <module name="collections" />
+        <module name="constructorinjection" />
         <module name="custompropertyeditor" />
+        <module name="dependencypull" />
         <module name="disposablebean" />
         <module name="environment" />
         <module name="events" />
@@ -23,35 +28,23 @@
         <module name="groovyconfig" />
         <module name="initializingbean" />
         <module name="initializingbeandestroy" />
+        <module name="injection" />
         <module name="javaconfig" />
+        <module name="javaconfigmessageprovider" />
         <module name="messagesource" />
+        <module name="methodinjection" />
+        <module name="methodreplacement" />
+        <module name="nesting" />
         <module name="postconstruct" />
         <module name="postconstructpredestroy" />
+        <module name="profiles" />
+        <module name="propertyeditors" />
+        <module name="propertyplaceholder" />
         <module name="qwerty" />
-      </profile>
-      <profile name="Annotation profile for simpletypes" enabled="true">
-        <sourceOutputDir name="../../simpletypes/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../simpletypes/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="simpletypes" />
-      </profile>
-      <profile name="Annotation profile for constructorinjection" enabled="true">
-        <sourceOutputDir name="../../constructorinjection/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../constructorinjection/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="constructorinjection" />
-      </profile>
-      <profile name="Annotation profile for methodreplacement" enabled="true">
-        <sourceOutputDir name="../../methodreplacement/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../methodreplacement/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="methodreplacement" />
-      </profile>
-      <profile name="Annotation profile for setterinjection" enabled="true">
-        <sourceOutputDir name="../../setterinjection/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../setterinjection/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
+        <module name="resource" />
         <module name="setterinjection" />
+        <module name="shutdownhook" />
+        <module name="simpletypes" />
       </profile>
       <profile name="Annotation profile for prospring" enabled="true">
         <sourceOutputDir name="../dependencypull/target/generated-sources/annotations" />
@@ -59,40 +52,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cdl" />
       </profile>
-      <profile name="Annotation profile for nesting" enabled="true">
-        <sourceOutputDir name="../../nesting/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../nesting/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="nesting" />
-      </profile>
-      <profile name="Annotation profile for dependencypull" enabled="true">
-        <sourceOutputDir name="../../dependencypull/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../dependencypull/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="dependencypull" />
-      </profile>
-      <profile name="Annotation profile for injection" enabled="true">
-        <sourceOutputDir name="../../injection/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../injection/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="injection" />
-      </profile>
-      <profile name="Annotation profile for collections" enabled="true">
-        <sourceOutputDir name="../../collections/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../collections/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="collections" />
-      </profile>
-      <profile name="Annotation profile for methodinjection" enabled="true">
-        <sourceOutputDir name="../../methodinjection/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../methodinjection/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="methodinjection" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="accessing-factory-beans" target="1.8" />
       <module name="accessingfactorybeans" target="1.8" />
       <module name="applicationcontextaware" target="1.8" />
+      <module name="bean-aliases" target="1.8" />
       <module name="beanaliases" target="1.8" />
       <module name="beanautowiring" target="1.8" />
       <module name="beaninheritance" target="1.8" />
@@ -101,6 +66,8 @@
       <module name="beannameaware" target="1.8" />
       <module name="cdl" target="1.6" />
       <module name="chapter3" target="1.8" />
+      <module name="chapter4" target="1.8" />
+      <module name="chapter5" target="1.8" />
       <module name="collections" target="1.8" />
       <module name="constructorinjection" target="1.6" />
       <module name="custompropertyeditor" target="1.8" />
@@ -120,12 +87,17 @@
       <module name="messagesource" target="1.8" />
       <module name="methodinjection" target="1.6" />
       <module name="methodreplacement" target="1.8" />
-      <module name="nesting" target="1.5" />
+      <module name="nesting" target="1.8" />
       <module name="postconstruct" target="1.8" />
       <module name="postconstructpredestroy" target="1.8" />
+      <module name="profiles" target="1.8" />
+      <module name="propertyeditors" target="1.8" />
+      <module name="propertyplaceholder" target="1.8" />
       <module name="prospring" target="1.8" />
       <module name="qwerty" target="1.8" />
+      <module name="resource" target="1.8" />
       <module name="setterinjection" target="1.8" />
+      <module name="shutdownhook" target="1.8" />
       <module name="simpletypes" target="1.8" />
       <module name="three" target="1.5" />
     </bytecodeTargetLevel>

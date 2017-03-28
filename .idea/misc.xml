@@ -10,10 +10,29 @@
         <option value="$PROJECT_DIR$/chapter4/pom.xml" />
         <option value="$PROJECT_DIR$/groovyconfig/pom.xml" />
         <option value="$PROJECT_DIR$/messagesource/pom.xml" />
+        <option value="$PROJECT_DIR$/profiles/pom.xml" />
+        <option value="$PROJECT_DIR$/propertyplaceholder/pom.xml" />
+        <option value="$PROJECT_DIR$/resource/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/beanaliases/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/beaninheritance/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/beanautowiring/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/simpletypes/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/setterinjection/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/nesting/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/methodreplacement/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/methodinjection/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/injection/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/dependencypull/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/constructorinjection/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/collections/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/cdl/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3/beaninstantiationmode/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter4/shutdownhook/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/chapter4/pom.xml" />
         <option value="$PROJECT_DIR$/factorybeanandfactorymethodattributes1/pom.xml" />
         <option value="$PROJECT_DIR$/javaconfigmessageprovider/pom.xml" />
         <option value="$PROJECT_DIR$/qwerty/pom.xml" />
