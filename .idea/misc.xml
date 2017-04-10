@@ -34,9 +34,6 @@
       <set>
         <option value="$PROJECT_DIR$/chapter4/pom.xml" />
         <option value="$PROJECT_DIR$/chapter5/pom.xml" />
-        <option value="$PROJECT_DIR$/factorybeanandfactorymethodattributes1/pom.xml" />
-        <option value="$PROJECT_DIR$/javaconfigmessageprovider/pom.xml" />
-        <option value="$PROJECT_DIR$/qwerty/pom.xml" />
       </set>
     </option>
   </component>

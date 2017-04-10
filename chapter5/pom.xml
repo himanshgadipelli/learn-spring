@@ -15,6 +15,15 @@
         <module>afterreturningadvicekeygen</module>
         <module>annotationpointcut</module>
         <module>aopnamespace</module>
+        <module>aspectjannotations</module>
+        <module>aspectjaspects</module>
+        <module>aspectregexpointcuts</module>
+        <module>cflowpointcuts</module>
+        <module>cglibperformance</module>
+        <module>composable-pointcut</module>
+        <module>dynamic-pointcut</module>
+        <module>hello-world</module>
+        <module>modification-introduction</module>
     </modules>
 
     <dependencies>
@@ -22,16 +31,19 @@
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjrt</artifactId>
-            <version>1.7.3</version>
+            <version>${aspectj.version}</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/aspectj/aspectjweaver -->
         <dependency>
-            <groupId>aspectj</groupId>
+            <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
-            <version>1.5.4</version>
+            <version>${aspectj.version}</version>
         </dependency>
     </dependencies>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <aspectj.version>1.8.10</aspectj.version>
+    </properties>
 
 
 </project>

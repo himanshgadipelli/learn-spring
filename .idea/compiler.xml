@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="D:/Java/repository/org/aspectj/aspectjtools/1.7.3/aspectjtools-1.7.3.jar" />
+    <option name="delegateToJavac" value="true" />
+  </component>
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -11,24 +16,32 @@
         <module name="annotationpointcut" />
         <module name="aopnamespace" />
         <module name="applicationcontextaware" />
+        <module name="aspectjannotations" />
+        <module name="aspectjaspects" />
+        <module name="aspectregexpointcuts" />
         <module name="bean-aliases" />
         <module name="beanautowiring" />
         <module name="beaninheritance" />
         <module name="beaninit" />
         <module name="beaninstantiationmode" />
         <module name="beannameaware" />
+        <module name="cflowpointcuts" />
+        <module name="cglibperformance" />
         <module name="chapter4" />
         <module name="collections" />
+        <module name="composable-pointcut" />
         <module name="constructorinjection" />
         <module name="custompropertyeditor" />
         <module name="dependencypull" />
         <module name="disposablebean" />
+        <module name="dynamic-pointcut" />
         <module name="environment" />
         <module name="events" />
         <module name="experiment" />
         <module name="factorybean" />
         <module name="factorybeanandfactorymethodattributes" />
         <module name="groovyconfig" />
+        <module name="hello-world" />
         <module name="initializingbean" />
         <module name="initializingbeandestroy" />
         <module name="injection" />
@@ -37,7 +50,9 @@
         <module name="messagesource" />
         <module name="methodinjection" />
         <module name="methodreplacement" />
+        <module name="modification-introduction" />
         <module name="nesting" />
+        <module name="plain-jdbc" />
         <module name="postconstruct" />
         <module name="postconstructpredestroy" />
         <module name="profiles" />
@@ -57,55 +72,66 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="accessing-factory-beans" target="1.8" />
+      <module name="accessing-factory-beans" target="1.5" />
       <module name="accessingfactorybeans" target="1.8" />
-      <module name="afterreturningadvicekeygen" target="1.8" />
-      <module name="annotationpointcut" target="1.8" />
-      <module name="aopnamespace" target="1.8" />
-      <module name="applicationcontextaware" target="1.8" />
-      <module name="bean-aliases" target="1.8" />
+      <module name="afterreturningadvicekeygen" target="1.5" />
+      <module name="annotationpointcut" target="1.5" />
+      <module name="aopnamespace" target="1.5" />
+      <module name="applicationcontextaware" target="1.5" />
+      <module name="aspectjannotations" target="1.5" />
+      <module name="aspectjaspects" target="1.4" />
+      <module name="aspectregexpointcuts" target="1.6" />
+      <module name="bean-aliases" target="1.5" />
       <module name="beanaliases" target="1.8" />
-      <module name="beanautowiring" target="1.8" />
-      <module name="beaninheritance" target="1.8" />
-      <module name="beaninit" target="1.8" />
-      <module name="beaninstantiationmode" target="1.8" />
-      <module name="beannameaware" target="1.8" />
+      <module name="beanautowiring" target="1.5" />
+      <module name="beaninheritance" target="1.5" />
+      <module name="beaninit" target="1.5" />
+      <module name="beaninstantiationmode" target="1.5" />
+      <module name="beannameaware" target="1.5" />
       <module name="cdl" target="1.6" />
-      <module name="chapter3" target="1.8" />
+      <module name="cflowpointcuts" target="1.6" />
+      <module name="cglibperformance" target="1.6" />
+      <module name="chapter3" target="1.5" />
       <module name="chapter4" target="1.8" />
-      <module name="chapter5" target="1.8" />
-      <module name="collections" target="1.8" />
+      <module name="chapter5" target="1.5" />
+      <module name="chapter6" target="1.5" />
+      <module name="collections" target="1.5" />
+      <module name="composable-pointcut" target="1.6" />
       <module name="constructorinjection" target="1.6" />
-      <module name="custompropertyeditor" target="1.8" />
+      <module name="custompropertyeditor" target="1.5" />
       <module name="dependencypull" target="1.6" />
-      <module name="disposablebean" target="1.8" />
-      <module name="environment" target="1.8" />
-      <module name="events" target="1.8" />
-      <module name="experiment" target="1.8" />
-      <module name="factorybean" target="1.8" />
-      <module name="factorybeanandfactorymethodattributes" target="1.8" />
+      <module name="disposablebean" target="1.5" />
+      <module name="dynamic-pointcut" target="1.6" />
+      <module name="environment" target="1.5" />
+      <module name="events" target="1.5" />
+      <module name="experiment" target="1.5" />
+      <module name="factorybean" target="1.5" />
+      <module name="factorybeanandfactorymethodattributes" target="1.5" />
       <module name="factorybeanandfactorymethodattributes1" target="1.5" />
-      <module name="groovyconfig" target="1.8" />
-      <module name="initializingbean" target="1.8" />
-      <module name="initializingbeandestroy" target="1.8" />
+      <module name="groovyconfig" target="1.5" />
+      <module name="hello-world" target="1.5" />
+      <module name="initializingbean" target="1.5" />
+      <module name="initializingbeandestroy" target="1.5" />
       <module name="injection" target="1.6" />
-      <module name="javaconfig" target="1.8" />
-      <module name="javaconfigmessageprovider" target="1.8" />
-      <module name="messagesource" target="1.8" />
+      <module name="javaconfig" target="1.5" />
+      <module name="javaconfigmessageprovider" target="1.5" />
+      <module name="messagesource" target="1.5" />
       <module name="methodinjection" target="1.6" />
       <module name="methodreplacement" target="1.8" />
-      <module name="nesting" target="1.8" />
-      <module name="postconstruct" target="1.8" />
-      <module name="postconstructpredestroy" target="1.8" />
-      <module name="profiles" target="1.8" />
-      <module name="propertyeditors" target="1.8" />
-      <module name="propertyplaceholder" target="1.8" />
-      <module name="prospring" target="1.8" />
+      <module name="modification-introduction" target="1.6" />
+      <module name="nesting" target="1.5" />
+      <module name="plain-jdbc" target="1.6" />
+      <module name="postconstruct" target="1.5" />
+      <module name="postconstructpredestroy" target="1.5" />
+      <module name="profiles" target="1.5" />
+      <module name="propertyeditors" target="1.5" />
+      <module name="propertyplaceholder" target="1.5" />
+      <module name="prospring" target="1.5" />
       <module name="qwerty" target="1.8" />
-      <module name="resource" target="1.8" />
-      <module name="setterinjection" target="1.8" />
-      <module name="shutdownhook" target="1.8" />
-      <module name="simpletypes" target="1.8" />
+      <module name="resource" target="1.5" />
+      <module name="setterinjection" target="1.5" />
+      <module name="shutdownhook" target="1.5" />
+      <module name="simpletypes" target="1.5" />
       <module name="three" target="1.5" />
     </bytecodeTargetLevel>
   </component>
