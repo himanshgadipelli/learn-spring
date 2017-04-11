@@ -14,6 +14,7 @@
         <spring.version>4.3.6.RELEASE</spring.version>
         <log4j.version>1.2.17</log4j.version>
         <mysql.client.version>5.1.29</mysql.client.version>
+        <dbcp.version>1.4</dbcp.version>
     </properties>
 
     <dependencies>
@@ -27,12 +28,18 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.client.version}</version>
         </dependency>
+        <dependency>
+            <groupId>commons-dbcp</groupId>
+            <artifactId>commons-dbcp</artifactId>
+            <version>${dbcp.version}</version>
+        </dependency>
     </dependencies>
 
     <artifactId>chapter6</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>plain-jdbc</module>
+        <module>jdbc-anotations</module>
     </modules>
 
 

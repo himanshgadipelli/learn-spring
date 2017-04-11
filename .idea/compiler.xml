@@ -47,6 +47,7 @@
         <module name="injection" />
         <module name="javaconfig" />
         <module name="javaconfigmessageprovider" />
+        <module name="jdbc-anotations" />
         <module name="messagesource" />
         <module name="methodinjection" />
         <module name="methodreplacement" />
@@ -115,6 +116,7 @@
       <module name="injection" target="1.6" />
       <module name="javaconfig" target="1.5" />
       <module name="javaconfigmessageprovider" target="1.5" />
+      <module name="jdbc-anotations" target="1.6" />
       <module name="messagesource" target="1.5" />
       <module name="methodinjection" target="1.6" />
       <module name="methodreplacement" target="1.8" />

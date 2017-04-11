@@ -42,6 +42,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter3/injection/injection.iml" filepath="$PROJECT_DIR$/chapter3/injection/injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter4/javaconfig/javaconfig.iml" filepath="$PROJECT_DIR$/chapter4/javaconfig/javaconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter4/javaconfigmessageprovider/javaconfigmessageprovider.iml" filepath="$PROJECT_DIR$/chapter4/javaconfigmessageprovider/javaconfigmessageprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6/jdbc-anotations/jdbc-anotations.iml" filepath="$PROJECT_DIR$/chapter6/jdbc-anotations/jdbc-anotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter4/messagesource/messagesource.iml" filepath="$PROJECT_DIR$/chapter4/messagesource/messagesource.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/methodinjection/methodinjection.iml" filepath="$PROJECT_DIR$/chapter3/methodinjection/methodinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/methodreplacement/methodreplacement.iml" filepath="$PROJECT_DIR$/chapter3/methodreplacement/methodreplacement.iml" />
