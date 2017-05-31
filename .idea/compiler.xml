@@ -64,6 +64,10 @@
         <module name="setterinjection" />
         <module name="shutdownhook" />
         <module name="simpletypes" />
+        <module name="spring-jdbc-annotations" />
+        <module name="spring-jdbc-annotations-lamda" />
+        <module name="spring-jdbc-anotations" />
+        <module name="spring-jdbc-embedded" />
       </profile>
       <profile name="Annotation profile for prospring" enabled="true">
         <sourceOutputDir name="../dependencypull/target/generated-sources/annotations" />
@@ -100,7 +104,7 @@
       <module name="composable-pointcut" target="1.6" />
       <module name="constructorinjection" target="1.6" />
       <module name="custompropertyeditor" target="1.5" />
-      <module name="dependencypull" target="1.6" />
+      <module name="dependencypull" target="1.5" />
       <module name="disposablebean" target="1.5" />
       <module name="dynamic-pointcut" target="1.6" />
       <module name="environment" target="1.5" />
@@ -134,6 +138,10 @@
       <module name="setterinjection" target="1.5" />
       <module name="shutdownhook" target="1.5" />
       <module name="simpletypes" target="1.5" />
+      <module name="spring-jdbc-annotations" target="1.6" />
+      <module name="spring-jdbc-annotations-lamda" target="1.8" />
+      <module name="spring-jdbc-anotations" target="1.6" />
+      <module name="spring-jdbc-embedded" target="1.5" />
       <module name="three" target="1.5" />
     </bytecodeTargetLevel>
   </component>

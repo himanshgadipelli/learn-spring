@@ -24,6 +24,11 @@
             <version>${log4j.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.client.version}</version>
@@ -39,7 +44,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>plain-jdbc</module>
-        <module>jdbc-anotations</module>
+        <module>spring-jdbc-annotations</module>
+        <module>spring-jdbc-annotations-lamda</module>
+        <module>spring-jdbc-embedded</module>
     </modules>
 
 

@@ -42,7 +42,6 @@
       <module fileurl="file://$PROJECT_DIR$/chapter3/injection/injection.iml" filepath="$PROJECT_DIR$/chapter3/injection/injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter4/javaconfig/javaconfig.iml" filepath="$PROJECT_DIR$/chapter4/javaconfig/javaconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter4/javaconfigmessageprovider/javaconfigmessageprovider.iml" filepath="$PROJECT_DIR$/chapter4/javaconfigmessageprovider/javaconfigmessageprovider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter6/jdbc-anotations/jdbc-anotations.iml" filepath="$PROJECT_DIR$/chapter6/jdbc-anotations/jdbc-anotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter4/messagesource/messagesource.iml" filepath="$PROJECT_DIR$/chapter4/messagesource/messagesource.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/methodinjection/methodinjection.iml" filepath="$PROJECT_DIR$/chapter3/methodinjection/methodinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/methodreplacement/methodreplacement.iml" filepath="$PROJECT_DIR$/chapter3/methodreplacement/methodreplacement.iml" />
@@ -59,6 +58,10 @@
       <module fileurl="file://$PROJECT_DIR$/chapter3/setterinjection/setterinjection.iml" filepath="$PROJECT_DIR$/chapter3/setterinjection/setterinjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter4/shutdownhook/shutdownhook.iml" filepath="$PROJECT_DIR$/chapter4/shutdownhook/shutdownhook.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/simpletypes/simpletypes.iml" filepath="$PROJECT_DIR$/chapter3/simpletypes/simpletypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6/spring-jdbc-annotations/spring-jdbc-annotations.iml" filepath="$PROJECT_DIR$/chapter6/spring-jdbc-annotations/spring-jdbc-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6/spring-jdbc-annotations-lamda/spring-jdbc-annotations-lamda.iml" filepath="$PROJECT_DIR$/chapter6/spring-jdbc-annotations-lamda/spring-jdbc-annotations-lamda.iml" />
+      <module fileurl="file://D:\IdeaProjects\prospring\chapter6\spring-jdbc-annotations\spring-jdbc-anotations.iml" filepath="D:\IdeaProjects\prospring\chapter6\spring-jdbc-annotations\spring-jdbc-anotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6/spring-jdbc-embedded/spring-jdbc-embedded.iml" filepath="$PROJECT_DIR$/chapter6/spring-jdbc-embedded/spring-jdbc-embedded.iml" />
     </modules>
   </component>
 </project>
