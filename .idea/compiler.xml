@@ -104,7 +104,7 @@
       <module name="composable-pointcut" target="1.6" />
       <module name="constructorinjection" target="1.6" />
       <module name="custompropertyeditor" target="1.5" />
-      <module name="dependencypull" target="1.5" />
+      <module name="dependencypull" target="1.6" />
       <module name="disposablebean" target="1.5" />
       <module name="dynamic-pointcut" target="1.6" />
       <module name="environment" target="1.5" />
